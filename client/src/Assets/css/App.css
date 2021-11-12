@@ -1,0 +1,91 @@
+.__main {
+    margin-left: 250px;
+    margin-top: 56px;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    margin-top: 57px;
+    background-color: #fdfdfd;
+    border-right: 1px solid #dee2e6;
+}
+
+.border-lighten {
+    border-color: #eeeeee !important;
+}
+
+.uploads {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    color: #dee2e6;
+    font-size: 80px;
+    background-color: #ff1a55;
+    box-shadow: 0 2px 6px 2px #1b1b1b45;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.uploads span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 139px;
+    width: 139px;
+    margin: auto;
+    font-weight: 700;
+    transition: 0.5s ease-in-out;
+}
+
+.uploads:hover > span {
+    transform: rotate(490deg);
+}
+
+.uploads.expand {
+    border-radius: 10px !important;
+}
+
+.uploads.expand > span {
+    transform: rotate(490deg);
+}
+
+/* form posts */
+.form-posts {
+    margin-top: -682px;
+    padding: 120px 38px;
+    background-color: #2e3b51;
+    transition: 0.3s ease-in-out;
+}
+
+.form-posts.expand {
+    margin-top: 0px !important;
+}
+
+/* helper */
+.rounded-2 {
+    border-radius: 2px !important;
+}
+/* loading */
+.loading-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    height: 3px;
+    width: 100%;
+    overflow: hidden;
+}
