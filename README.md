@@ -13,7 +13,7 @@ Buka Browser di URL Untuk API [http://localhost:3000](http://localhost:3000) to 
 
 Untuk Frontend Masuk di Directory Client<br>
 Jika Modules ReactJS Belum Terpasang jalankan kembali<br>
-### `npm run start`
+### `npm run install && npm run start`
 
 Buka Browser di URL Untuk Web Sesuai Port yg diterima<br>
 
